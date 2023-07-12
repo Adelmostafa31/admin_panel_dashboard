@@ -9,14 +9,18 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Admin Dashboard',
-      theme: ThemeData.light(
+      theme: ThemeData(
         useMaterial3: true,
+        fontFamily: 'Dosis',
       ),
-      home: const Scaffold(
-        body: Center(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('data'),
+        ),
+        body: const Center(
           child: Text('Hello World!'),
         ),
       ),
