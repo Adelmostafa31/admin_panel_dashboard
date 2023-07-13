@@ -6,15 +6,27 @@ class search_feild extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextFormField(
-      decoration: InputDecoration(
-        hintText: 'Search For Statistics',
-        focusColor: Colors.red,
-        hintStyle: TextStyle(color: textColor.withOpacity(0.5), fontSize: 16),
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(15),
-        ),
-        prefixIcon: Icon(Icons.search,color: primaryColor,size: 25,)
+    return Container(
+      clipBehavior: Clip.antiAlias,
+      decoration: BoxDecoration(
+        boxShadow: [shadow],
+        borderRadius: BorderRadius.circular(15),
+      ),
+      child: TextFormField(
+        cursorColor: Colors.red,
+        decoration: InputDecoration(
+            hintText: 'Search For Statistics',
+            border: const OutlineInputBorder(borderSide: BorderSide.none),
+            focusColor: Colors.red,
+            fillColor: Colors.white,
+            filled: true,
+            hintStyle:
+                TextStyle(color: textColor.withOpacity(0.5), fontSize: 16),
+            prefixIcon: const Icon(
+              Icons.search,
+              color: primaryColor,
+              size: 25,
+            )),
       ),
     );
   }

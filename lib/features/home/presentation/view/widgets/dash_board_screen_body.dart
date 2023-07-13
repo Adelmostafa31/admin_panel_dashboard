@@ -7,8 +7,6 @@ import 'package:flutter/material.dart';
 
 // ignore: camel_case_types
 class dash_board_screen_body extends StatelessWidget {
-
-
   dash_board_screen_body({super.key});
 
   @override

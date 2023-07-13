@@ -11,7 +11,7 @@ class drawer_menu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       elevation: 10,
-      shadowColor: Colors.black,
+      shadowColor: Colors.grey,
       backgroundColor: Colors.white,
       child: ListView(
         children: [
@@ -21,17 +21,39 @@ class drawer_menu extends StatelessWidget {
                 fit: BoxFit.cover),
           ),
           drawer_item(
-              svg: Assets.iconsDashboard, title: 'Dash Board', tap: () {}),
-          drawer_item(svg: Assets.iconsPost, title: 'Blog Post', tap: () {}),
-          drawer_item(svg: Assets.iconsMessage, title: 'Message', tap: () {}),
+            svg: Assets.iconsDashboard,
+            title: 'Dash Board',
+            tap: () {},
+          ),
           drawer_item(
-              svg: Assets.iconsStatistics, title: 'Statistics', tap: () {}),
+            svg: Assets.iconsPost,
+            title: 'Blog Post',
+            tap: () {},
+          ),
+          drawer_item(
+            svg: Assets.iconsMessage,
+            title: 'Message',
+            tap: () {},
+          ),
+          drawer_item(
+            svg: Assets.iconsStatistics,
+            title: 'Statistics',
+            tap: () {},
+          ),
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: appPadding),
             child: Divider(),
           ),
-          drawer_item(svg: Assets.iconsSetting, title: 'Settings', tap: () {}),
-          drawer_item(svg: Assets.iconsLogout, title: 'Logout', tap: () {}),
+          drawer_item(
+            svg: Assets.iconsSetting,
+            title: 'Settings',
+            tap: () {},
+          ),
+          drawer_item(
+            svg: Assets.iconsLogout,
+            title: 'Logout',
+            tap: () {},
+          ),
         ],
       ),
     );
