@@ -37,7 +37,7 @@ class bar_chart_users extends StatelessWidget {
             x: 1,
             barsSpace: !Responsive.isMobile(context) ? 25 : 2,
             showingTooltipIndicators: num_list,
-            barRods: bar_list,
+            barRods: bar_list
           ),
         ],
       ),
