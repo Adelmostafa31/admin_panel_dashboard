@@ -25,8 +25,14 @@ flutter:
   assets:
       - assets/images/
       - assets/icons/
+      - assets/animation/
   fonts:
     - family: Dosis
       fonts:
         - asset: assets/fonts/Dosis-Regular.ttf
   uses-material-design: true
+flutter_assets:
+  assets_path: assets/
+  output_path: lib/constants/
+  filename: assets.dart
+  field_prefix:

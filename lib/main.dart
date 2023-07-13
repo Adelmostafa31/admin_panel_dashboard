@@ -1,3 +1,5 @@
+import 'package:admin_panel_dashboard/core/constants/ThemeData.dart';
+import 'package:admin_panel_dashboard/features/home/presentation/view/dash_board_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,20 +12,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Admin Dashboard',
-      theme: ThemeData(
-        useMaterial3: true,
-        fontFamily: 'Dosis',
-      ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('data'),
-        ),
-        body: const Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'Admin Dashboard',
+        theme: LightTheme,
+        home: const dash_board_screen());
   }
 }

@@ -1,5 +1,5 @@
 
-import 'package:admin_panel_dashboard/core/constance/constants.dart';
+import 'package:admin_panel_dashboard/core/constants/constants.dart';
 import 'package:admin_panel_dashboard/core/models/analytic_model/analytic_info_model.dart';
 import 'package:admin_panel_dashboard/core/models/discussions_model/discussions_info_model.dart';
 import 'package:admin_panel_dashboard/core/models/referal_model/referal_info_model.dart';
