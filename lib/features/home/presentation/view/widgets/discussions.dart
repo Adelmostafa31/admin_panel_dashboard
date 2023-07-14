@@ -12,11 +12,7 @@ class discussions extends StatelessWidget {
     return Container(
       height: 540,
       margin: const EdgeInsets.symmetric(horizontal: 5),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(15),
-        boxShadow: [shadow],
-      ),
+      decoration: decorate,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

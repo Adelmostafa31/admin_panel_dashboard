@@ -147,3 +147,43 @@ List<int> num_list = [
   9,
   10,
 ];
+
+const TextStyle style1 = TextStyle(
+  fontSize: 22,
+  color: primaryColor,
+  fontWeight: FontWeight.bold,
+);
+
+TextStyle style2 = TextStyle(
+  fontSize: 18,
+  color: Colors.black.withOpacity(0.5),
+  fontWeight: FontWeight.bold,
+);
+
+const TextStyle style3 = TextStyle(
+  fontSize: 20,
+  color: Colors.black,
+  fontWeight: FontWeight.bold,
+);
+TextStyle style4 = TextStyle(
+  fontSize: 20,
+  color: Colors.black.withOpacity(0.5),
+  fontWeight: FontWeight.bold,
+);
+
+const List<FlSpot> lineList = [
+  FlSpot(0, 3),
+  FlSpot(4, 2),
+  FlSpot(9, 4),
+  FlSpot(12, 3),
+  FlSpot(15, 5),
+  FlSpot(18, 5),
+  FlSpot(20, 4),
+  FlSpot(22, 2),
+];
+
+BoxDecoration decorate = BoxDecoration(
+  color: Colors.white,
+  borderRadius: BorderRadius.circular(15),
+  boxShadow: [shadow],
+);

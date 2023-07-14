@@ -1,4 +1,3 @@
-
 import 'package:admin_panel_dashboard/core/constants/constants.dart';
 import 'package:admin_panel_dashboard/core/models/analytic_model/analytic_info_model.dart';
 import 'package:admin_panel_dashboard/core/models/discussions_model/discussions_info_model.dart';
@@ -7,13 +6,13 @@ import 'package:admin_panel_dashboard/core/models/referal_model/referal_info_mod
 List analyticData = [
   AnalyticInfo(
     title: "Subscribers",
-    count: 720,
+    count: 640,
     svgSrc: "assets/icons/Subscribers.svg",
     color: primaryColor,
   ),
   AnalyticInfo(
     title: "Post",
-    count: 820,
+    count: 1030,
     svgSrc: "assets/icons/Post.svg",
     color: purple,
   ),
@@ -25,7 +24,7 @@ List analyticData = [
   ),
   AnalyticInfo(
     title: "Comments",
-    count: 920,
+    count: 734,
     svgSrc: "assets/icons/Comments.svg",
     color: green,
   ),
@@ -35,32 +34,37 @@ List discussionData = [
   DiscussionInfoModel(
     imageSrc: "assets/images/photo1.jpg",
     name: "Lutfhi Chan",
-    date: "Jan 25,2021",
+    date: "Jan 27,2023",
   ),
   DiscussionInfoModel(
     imageSrc: "assets/images/photo2.jpg",
     name: "Devi Carlos",
-    date: "Jan 25,2021",
+    date: "Jan 25,2023",
   ),
   DiscussionInfoModel(
     imageSrc: "assets/images/photo3.jpg",
     name: "Danar Comel",
-    date: "Jan 25,2021",
+    date: "Feb 2,2023",
   ),
   DiscussionInfoModel(
     imageSrc: "assets/images/photo4.jpg",
     name: "Karin Lumina",
-    date: "Jan 25,2021",
+    date: "Feb 5,2023",
   ),
   DiscussionInfoModel(
     imageSrc: "assets/images/photo5.jpg",
     name: "Fandid Deadan",
-    date: "Jan 25,2021",
+    date: "Feb 7,2023",
   ),
   DiscussionInfoModel(
-    imageSrc: "assets/images/photo1.jpg",
-    name: "Lutfhi Chan",
-    date: "Jan 25,2021",
+    imageSrc: "assets/images/photo7.jpg",
+    name: "Willian James",
+    date: "Feb 9,2023",
+  ),
+  DiscussionInfoModel(
+    imageSrc: "assets/images/photo8.jpg",
+    name: "Allan Walker",
+    date: "Jan 30,2023",
   ),
 ];
 
@@ -83,7 +87,6 @@ List referalData = [
     svgSrc: "assets/icons/Linkedin.svg",
     color: primaryColor,
   ),
-
   ReferalInfoModel(
     title: "Dribble",
     count: 234,

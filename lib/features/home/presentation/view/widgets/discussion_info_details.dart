@@ -29,17 +29,11 @@ class discussion_info_details extends StatelessWidget {
             children: [
               Text(
                 disInfo.name!,
-                style: const TextStyle(
-                    fontSize: 20,
-                    color: Colors.black,
-                    fontWeight: FontWeight.bold),
+                style: style3,
               ),
               Text(
                 disInfo.date!,
-                style: TextStyle(
-                    fontSize: 16,
-                    color: Colors.black.withOpacity(0.5),
-                    fontWeight: FontWeight.bold),
+                style: style4,
               ),
             ],
           ),

@@ -14,13 +14,7 @@ class analytical_info_card extends StatelessWidget {
         horizontal: appPadding,
         vertical: appPadding / 2,
       ),
-      decoration: BoxDecoration(
-        color: secondaryColor,
-        borderRadius: BorderRadius.circular(15),
-        boxShadow: [
-          shadow,
-        ],
-      ),
+      decoration: decorate,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -29,10 +23,7 @@ class analytical_info_card extends StatelessWidget {
             children: [
               Text(
                 '${info.count}',
-                style: const TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: style3,
               ),
               const Spacer(),
               Container(
@@ -53,10 +44,7 @@ class analytical_info_card extends StatelessWidget {
             '${info.title}',
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
-            style: const TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-            ),
+            style: style3,
           ),
         ],
       ),

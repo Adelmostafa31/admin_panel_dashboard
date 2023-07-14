@@ -100,4 +100,8 @@ class Assets {
   /// Assets for imagesPhoto6
   /// assets/images/photo6.jpg
   static const String imagesPhoto6 = "assets/images/photo6.jpg";
+
+  static const String imagesPhoto7 = "assets/images/photo7.jpg";
+  
+  static const String imagesPhoto8 = "assets/images/photo8.jpg";
 }
